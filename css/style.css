@@ -1,0 +1,483 @@
+@font-face {
+font-family: Derivia;
+src: url(../fonts/Derivia.TTF);
+
+}
+@font-face {
+font-family: Haettenschweiler;
+src: url(../fonts/Haettenschweiler.TTF);
+
+}
+
+@font-face{
+font-family: Doulos;
+src: url(../fonts/DoulosSILR.TTF);
+}
+@font-face{
+font-family: Maratre;
+src: url(../fonts/Maratre.OTF);
+}
+body
+{
+	background: #151515;
+}
+li{
+	font-size: 1.2em;
+	display: inline-block;
+	padding: 20px;
+	color: #B7B7B7;
+	font-family: Doulos, serif;
+}
+p{
+	color: #8f8f8f;
+	font-size: 1.2em;
+	font-family: Doulos, serif;
+	line-height: 1.3;
+}
+h1{color:#B7B7B7;
+ font-family: Doulos;}
+h3	{color:#B7B7B7;
+ font-family: Doulos;}
+/*MENU*/
+
+a{
+	text-decoration: none!important;
+}
+a:hover{
+	text-decoration: none!important;
+}
+
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menualto{
+	height: 50px;
+	margin-top: -10px;
+}
+
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	left:0;
+	width:100%;
+	height: 51px;
+	margin-top: -10px;
+	background-color: #151515;
+
+}
+.flexslider{
+	border:0px!important;
+	height: 94vh;
+	overflow: hidden;
+}
+
+.panel-title:hover{
+	color: 000!important;
+}
+.botonenviarcontacto{
+	margin-right: 241px;
+	background-color: transparent;
+color: #9f863c;
+}
+
+.firma{
+	position: absolute;
+	width: 50%;
+	top: 190px;
+	margin: 0px 25% 0px 25%;
+}
+
+.logo{
+	width: 35px;
+	margin: -46px 0px 0px 167px;
+}
+.punto{
+	margin: 3px -22px -3px -23px;
+}
+.caja_links{
+	position: absolute;
+	margin: 0px 25% 0px 25%;
+	top: 10px;
+}
+
+
+
+/* ESPECIALES */
+.w300{
+	width: 300px;
+}
+.w200{
+	width: 200px;
+}
+.hidden{
+	overflow: hidden;
+}
+.inline{
+	display: inline-block;
+}
+.absoluto{position: absolute;}
+.pd0{
+	padding: 0px;
+}
+.blanco{
+	color:#8f8f8f;
+}
+.letrab{
+	font-family: Maratre, serif;
+	font-size: 3em;
+	color: #9f863c;
+}
+.letrazyla{color: #9f863c; }
+.mb50{
+	margin-bottom: 50px;
+}
+.gris{color: #b7b9b7;}
+
+.to{margin-top: 30px;}
+
+.mb10{margin-bottom: 10px;}
+.fondo_preguntas{
+	position: relative;
+	width: 100%;
+
+    background-image: url(../img/faq/fondo.png);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.fondo_contacto{
+	position: relative;
+	width: 100vw;
+    background-image: url(../img/fondocontacto.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+
+}
+.fondo_bio{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+    background-image: url(../img/fondobio.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+}
+
+.fondohome{
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+    background-image: url(../img/fondo3.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+.preguntas{
+
+	width: 50%;
+	margin-top: 67px;
+
+}
+.top_text{
+	margin-top: 30px;
+}
+
+.caja_bio{
+	position: absolute;
+	left: 164px;
+	top:77px;
+	width: 519px;
+}
+
+#slidervideo{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+
+
+/*CONTACTO*/
+.form-control{
+	font-family: Doulos!important;
+}
+.form_contacto{
+	background-color:rgb(102,102,102)!important;
+	opacity:0.6;
+	font-family: Doulos, serif;	
+
+}
+.contacto{
+	font-size: 6em;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	font-family: Haettenschweiler, serif;
+	color:#b7b9b7;
+}
+.botonenviar
+{background-color: transparent;
+color: #9f863c;
+margin-right: -500px;}
+
+
+.escribenos
+{color: #9f863c;
+font-family: Haettenschweiler, serif;
+margin-top: 50px;
+margin-bottom: 30px;
+font-size: 4em;
+}
+.toplogos{
+	margin-top: 72px;
+}
+
+.zyla{
+	margin-top: 142px;
+	font-family: Derivia, serif;
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.copy{
+	font-size: 1em;
+	margin-bottom: 170px;
+}
+.mt50{margin-top: 50px;}
+
+.wlogo{
+	margin-top: 70px;
+	width: 20%;
+}
+
+@media only screen and (max-width: 1300px) {
+.flexslider{
+	height: 100%;
+}
+
+.caja_bio{
+	width: 405px;
+	font-size: 1.1em;
+	left: 85px;
+	top:88px;
+
+}
+h1{
+	font-size:2em;
+}
+p{
+	font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 1175px) {
+.fondobio{
+	height: 100vh;
+}
+.firma{top:70px;}
+}
+
+@media only screen and (max-width: 990px) {
+.gris{text-align: center;}
+
+
+.botonenviar{
+	margin-right: -300px;
+}
+.contacto{
+	text-align: center;
+}
+.wlogo{
+	width: 36%;
+}
+
+}
+
+@media only screen and (max-width: 560px) {
+.pic{
+	max-height: 654px!important;
+	max-width: 459px!important;
+	margin: 0px;
+}
+
+.caja_bio{
+	width: 405px;
+	font-size: 1em;
+	left: 85px;
+	top:88px;
+
+}
+.fondohome{
+	height: 77vh;
+}
+h1{
+	font-size:2em;
+}
+p{
+	font-size: 13px;
+}
+
+}
+
+
+@media only screen and (max-width: 540px) {
+.pic{
+	max-height: 654px!important;
+	max-width: 459px!important;
+	margin: 0px;
+}
+
+.caja_bio{
+	width: 345px;
+	font-size: 1em;
+	left: 85px;
+	top:88px;
+
+}
+.top_text{
+	margin-top: 100px;
+}
+
+h1{
+	font-size:2em;
+}
+p{
+	font-size: 10px;
+}
+
+}
+.toplogos{
+	margin-top: 72px;
+}
+
+@media only screen and (max-width: 420px) {
+.pic{
+	max-height: 654px!important;
+	max-width: 459px!important;
+	margin: 0px;
+}
+.contacto{
+	font-size: 4em;
+	margin-top: 29px;
+	margin-bottom: 34px;
+}
+.well-lg{
+	padding: 36px;
+}
+
+.caja_bio{
+	width: 345px;
+	font-size: 1em;
+	left: 46px;
+	top:88px;
+
+}
+.top_text{
+	margin-top: 80px;
+}
+
+h1{
+	font-size:2em;
+}
+p{
+	font-size: 10px;
+}
+.firma{top:113px;}
+
+}
+@media only screen and (max-width: 750px) {
+.pic{
+	max-height: 654px!important;
+	max-width: 459px!important;
+	margin: 0px;
+}
+.contacto{
+	font-size: 4em;
+	margin-top: 29px;
+	margin-bottom: 34px;
+}
+.well-lg{
+	padding: 36px;
+}
+
+.caja_bio{
+	width: 345px;
+	font-size: 1em;
+	left: 46px;
+	top:88px;
+
+}
+.wlogo{
+	width: 50%;
+}
+
+.top_text{
+	margin-top: 80px;
+}
+
+h1{
+	font-size:2em;
+}
+p{
+	font-size: 10px;
+}
+
+}
+
+.image-link {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+
+/* This block of CSS adds opacity transition to background */
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+
+/* aligns caption to center */
+.mfp-title {
+  text-align: center;
+  padding: 6px 0;
+}
+.image-source-link {
+  color: #DDD;
+}
+
